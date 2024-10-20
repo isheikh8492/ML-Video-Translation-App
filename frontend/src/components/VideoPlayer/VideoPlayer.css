@@ -1,0 +1,16 @@
+.video-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-placeholder {
+  width: 400px;
+  height: 300px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #666;
+}
