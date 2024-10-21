@@ -107,8 +107,8 @@ This is a web application that processes video files to detect text, translate i
    For example:
 
    ```bash
-   export UPLOAD_FOLDER=/path/to/uploaded/videos
-   export PROCESSED_FOLDER=/path/to/processed/videos
+   export UPLOAD_FOLDER=/backend/uploads
+   export PROCESSED_FOLDER=/backend/processed/
    ```
 
 5. **Run the Flask Server**
@@ -116,10 +116,10 @@ This is a web application that processes video files to detect text, translate i
    Run the Flask development server:
 
    ```bash
-   python app.py
+   flask run
    ```
 
-   This will start the backend on `http://localhost:8080`.
+   This will start the backend on `http://127.0.0.1:5000`.
 
 ---
 
